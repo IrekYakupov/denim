@@ -1,27 +1,3 @@
-.main {
-  background-color: #40cfff;
-  width: 800px;
-  height: 800px;
-  display: flex;
-}
-.main {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.name {
-  color: #4b6a8f;
-  font-size: 200%;
-}
-.desc {
-  font-size: 30px;
-  font-weight: 700b;
-}
-li {
-  font-size: 20px;
-  font-style: italic;
-}
-
 div {
   border: 1px solid red;
   margin: 3px;
@@ -50,9 +26,19 @@ div {
   justify-content: center;
 }
 
-.girl{
+.girl {
   margin-top: 100px;
   margin-right: 59px;
   margin-left: 59px;
   margin-bottom: 307px;
+}
+
+.btn {
+  width: 204px;
+  height: 64px;
+  background: #151c22;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
 }
