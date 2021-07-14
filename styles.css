@@ -27,6 +27,7 @@ div {
 .links {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .a {
@@ -49,6 +50,8 @@ div {
   font-family: Work Sans;
   font-weight: 800;
   font-size: 24px;
+  background: #F1F2F4;
+  margin-bottom: 50px;
 }
 
 .girl {
@@ -57,6 +60,7 @@ div {
   margin-left: 59px;
   margin-bottom: 307px; */
   position: relative;
+  margin-bottom: 50px;
 }
 
 .girl::before {
@@ -90,10 +94,11 @@ div {
   width: 204px;
   height: 64px;
   background: #151c22;
-  color: #ffffff;
+  color: #F1F2F4;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 50px;
 }
 
 .respect {
@@ -103,6 +108,7 @@ div {
   font-size: 18px;
   line-height: 21px;
   color: #727a82;
+  margin-bottom: 20px;
 }
 
 .material {
@@ -112,6 +118,7 @@ div {
   font-size: 86px;
   line-height: 126px;
   color: #151c22;
+  margin-bottom: 40px;
 }
 
 .first-block {
@@ -123,4 +130,9 @@ div {
 
 .b {
   text-decoration: none;
+}
+
+body {
+  background: #E5E5E5;
+  margin: 0px;
 }
