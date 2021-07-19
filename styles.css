@@ -27,7 +27,8 @@ div {
 .links {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
+  width: 91%;
+  margin-bottom: 54px;
 }
 
 .a {
@@ -38,6 +39,8 @@ div {
   line-height: 19px;
   margin-right: 25px;
   font-family: "Work Sans";
+  margin-bottom: 40px;
+  padding: 0,6px;
 }
 
 .search {
@@ -47,44 +50,44 @@ div {
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: Work Sans;
   font-weight: 800;
   font-size: 24px;
-  background: #F1F2F4;
-  margin-bottom: 50px;
+  background: #f1f2f4;
+  /* height: 57px; */
+  padding: 14px 0;
 }
 
 .girl {
-  /* margin-top: 100px;
-  margin-right: 59px;
-  margin-left: 59px;
-  margin-bottom: 307px; */
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 44px;
 }
 
 .girl::before {
   content: "";
   display: block;
-  width: 50px;
-  height: 50px;
-  background: blue;
+  width: 109px;
+  height: 80px;
+  background: #e5e5e5;
   position: absolute;
   z-index: -1;
-  top: -10px;
-  left: 10px;
+  top: -20px;
+  left: -20px;
+  background-image: url(img/square.png);
 }
 
 .girl::after {
   content: "";
   display: block;
-  width: 50px;
-  height: 50px;
-  background: blue;
+  width: 109px;
+  height: 80px;
+  background: #e5e5e5;
   position: absolute;
   z-index: -1;
   bottom: -15px;
-  right: 21px;
+  right: -20px;
+  background-image: url(img/square2.png);
 }
 
 .btn {
@@ -94,7 +97,7 @@ div {
   width: 204px;
   height: 64px;
   background: #151c22;
-  color: #F1F2F4;
+  color: #f1f2f4;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -106,9 +109,9 @@ div {
   justify-content: center;
   font-family: Work Sans;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 18px;
   color: #727a82;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .material {
@@ -116,7 +119,7 @@ div {
   justify-content: center;
   font-family: Anton;
   font-size: 86px;
-  line-height: 126px;
+  line-height: 86px;
   color: #151c22;
   margin-bottom: 40px;
 }
@@ -126,6 +129,8 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #e5e5e5;
+  padding-top: 27px;
 }
 
 .b {
@@ -133,6 +138,6 @@ div {
 }
 
 body {
-  background: #E5E5E5;
+  /* background: #e5e5e5; */
   margin: 0px;
 }
