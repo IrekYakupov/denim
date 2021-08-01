@@ -141,3 +141,36 @@ body {
   /* background: #e5e5e5; */
   margin: 0px;
 }
+
+.clothes {
+  text-decoration: none;
+}
+
+.second-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #e5e5e5;
+  padding-top: 27px; */
+}
+
+.jacket1 {
+  margin-right: 30px;
+}
+
+.jacket3 {
+  margin-right: 30px;
+}
+
+.card {
+  width: 50% 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; 
+  Justify-content: space-around;
+  align-items: center;
+}
+
