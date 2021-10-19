@@ -166,77 +166,72 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: #e5e5e5;
-  padding-top: 27px; */
 }
 
 .cards {
   font-family: Work Sans;
-  position: absolute;
-  left: 15px;
-  top: 831px;
+  margin-top: 40px;
+  /* margin-left: 15px; */
   display: flex;
   flex-wrap: wrap;
 }
 
 .secondname {
-  margin-right: 30px;
   color: #151c22;
   margin-top: 15px;
 }
 
 .price {
-  margin-right: 30px;
   color: #151c22;
   margin-top: 10px;
 }
 
 .card {
+  margin-top: 30px;
+  /* margin-right: 30px; */
   width: 50%;
   text-decoration: none;
 }
 
 .range {
-  position: absolute;
-  left: 129px;
-  top: 1313px;
+  margin-top: 40px;
   font-family: Work Sans;
   color: #151c22;
 }
 
 hr {
-  position: absolute;
   width: 70px;
-  height: 0px;
-  left: 125px;
-  top: 1331px;
+  margin-top: 10px;
   border: 2px solid #151c22;
 }
 
 .parent {
   background-image: url(img/diagonal.png);
-  position: absolute;
+  margin-top: 60px;
   width: 320px;
   height: 226px;
-  left: 1px;
-  top: 1391px;
 }
 
 .child {
-  position: absolute;
-  height: 211px;
-  width: 290px;
-  left: 15px;
-  top: 15px;
-  background-color: #f1f2f4;
-  /* z-index: 2; */
+  background-color: red;
+  padding-top: 70px;
+  margin: 15px 15px 15px 15px;
 }
 
-.street {
-  position: absolute;
-  left: 30px;
-  top: 80px;
+/* .child {
+  /* position: absolute; */
+  /* height: 211px;
+  width: 290px;
+  margin: 3px 3px 3px 3px; */
+  /* left: 15px; */
+  /* top: 15px; */
+  /* background-color: #f1f2f4; */
+  /* background-color: red; */
+  /* z-index: 2; */
+} */
 
+.street {
+  margin-top: 40px;
   font-family: Work Sans;
   font-size: 18px;
   display: flex;
@@ -245,9 +240,7 @@ hr {
 }
 
 .fall {
-  position: absolute;
-  left: 85px;
-  top: 100px;
+  margin-top: 20px;
   font-family: Work Sans;
   font-weight: bold;
   font-size: 26px;
@@ -255,12 +248,11 @@ hr {
 }
 
 .btn2 {
-  height: 58px;
+  /* height: 58px; */
   width: 148px;
   background: #151c22;
-  position: absolute;
-  left: 65px;
-  top: 145px;
+  padding-top: 20px;
+  margin-top: 30px;
 
   font-family: Work Sans;
   font-weight: bold;
@@ -310,3 +302,32 @@ hr {
   font-family: Work Sans;
   color: #151c22;
 }
+
+.footer {
+  width: 320px;
+  background: #151c22;
+  padding-top: 20px;
+}
+
+.menu {
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  width: 80px;
+  font-family: Work Sans;
+}
+
+.social-network {
+  padding-top: 42px;
+  padding-bottom: 52px;
+  padding-right: 130px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
