@@ -24,7 +24,7 @@
   margin: 3px;
 } */
 
-.links {
+.classification {
   display: flex;
   justify-content: space-between;
   width: 91%;
@@ -43,8 +43,10 @@
   padding: 0, 6px;
 }
 
-.search {
+.form {
   margin-right: 25px;
+  width: 16px;
+  height: 16px;
 }
 
 .header {
@@ -199,11 +201,11 @@ body {
   color: #151c22;
 }
 
-hr {
+/* hr {
   width: 70px;
   margin-top: 10px;
   border: 2px solid #151c22;
-}
+} */
 
 .parent {
   background-image: url(img/diagonal.png);
