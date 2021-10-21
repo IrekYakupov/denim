@@ -207,42 +207,41 @@ body {
   border: 2px solid #151c22;
 } */
 
-.parent {
+.background-picture {
   background-image: url(img/diagonal.png);
   margin-top: 60px;
   width: 320px;
-  height: 226px;
+  height: 254px;
 }
 
-.child {
+.background-red {
   background-color: red;
-  padding-top: 70px;
+  padding-top: 40px;
   margin: 15px 15px 15px 15px;
+  display: flex;
+  display: block;
 }
 
 /* .child {
-  /* position: absolute; */
-  /* height: 211px;
+  position: absolute;
+  height: 211px;
   width: 290px;
-  margin: 3px 3px 3px 3px; */
-  /* left: 15px; */
-  /* top: 15px; */
-  /* background-color: #f1f2f4; */
-  /* background-color: red; */
-  /* z-index: 2; */
+  margin: 3px 3px 3px 3px;
+  left: 15px;
+  top: 15px;
+  background-color: #f1f2f4;
+  background-color: red;
+  z-index: 2;
 } */
 
 .street {
-  margin-top: 40px;
   font-family: Work Sans;
   font-size: 18px;
-  display: flex;
-  align-items: center;
   color: #727a82;
 }
 
 .fall {
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: Work Sans;
   font-weight: bold;
   font-size: 26px;
@@ -250,11 +249,10 @@ body {
 }
 
 .btn2 {
-  /* height: 58px; */
-  width: 148px;
   background: #151c22;
-  padding-top: 20px;
+  padding: 24px 34px 24px 34px;
   margin-top: 30px;
+  margin-bottom: 40px;
 
   font-family: Work Sans;
   font-weight: bold;
@@ -263,11 +261,8 @@ body {
 }
 
 .rectangle5 {
-  position: absolute;
   width: 312px;
   height: 226px;
-  left: 0px;
-  top: 225px;
 }
 
 .category1 {
