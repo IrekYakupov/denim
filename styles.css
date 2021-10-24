@@ -24,28 +24,39 @@
   margin: 3px;
 } */
 
-.category-link {
+body {
+  font-family: "Work Sans";
+    /* background: #e5e5e5; */
+    margin: 0px;
+    color: #151c22;
+}
+
+.links {
   display: flex;
   justify-content: space-between;
   width: 91%;
   margin-bottom: 54px;
 }
 
-.a {
+.category-link {
   text-decoration: none;
   color: #151c22;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   margin-right: 25px;
-  font-family: "Work Sans";
   margin-bottom: 40px;
-  padding: 0, 6px;
+  padding: 0 6px;
 }
 
-.search-link {
+.search {
   margin-right: 25px;
   width: 16px;
+  height: 16px;
+}
+
+.cart {
+  width: 18px;
   height: 16px;
 }
 
@@ -53,7 +64,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Work Sans;
   font-weight: 800;
   font-size: 24px;
   background: #f1f2f4;
@@ -62,6 +72,8 @@
 }
 
 .girl {
+  width: 202px;
+  height: 249px;
   position: relative;
   margin-bottom: 44px;
 }
@@ -92,27 +104,31 @@
   background-image: url(img/square2.png);
 }
 
+.btn-main {
+  background: #151c22;
+  color: #f1f2f4;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 204px;
   height: 64px;
-  background: #151c22;
-  color: #f1f2f4;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
   margin-bottom: 50px;
 }
 
 .respect {
   display: flex;
   justify-content: center;
-  font-family: Work Sans;
   font-size: 18px;
   line-height: 18px;
   color: #727a82;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 
@@ -122,8 +138,8 @@
   font-family: Anton;
   font-size: 86px;
   line-height: 86px;
-  color: #151c22;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .first-block {
@@ -135,30 +151,18 @@
   padding-top: 27px;
 }
 
-.b {
-  /* text-decoration: none; */
-}
-
-body {
-  /* background: #e5e5e5; */
-  margin: 0px;
-}
-
-.clothes {
+.icon-link {
   text-decoration: none;
 }
 
 .category {
-  font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 30px;
   display: flex;
   align-items: center;
-  color: #151c22;
   width: 144px;
-  height: 18px;
   margin-top: 60px;
   margin-left: 15px;
 }
@@ -171,19 +175,16 @@ body {
 }
 
 .cards {
-  font-family: Work Sans;
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .card-name {
-  color: #151c22;
   margin-top: 15px;
 }
 
 .card-price {
-  color: #151c22;
   margin-top: 10px;
 }
 
@@ -193,88 +194,68 @@ body {
 }
 
 .card-link {
+  width: 130px;
+  height: 160px;
+  color: #151c22;
   text-decoration: none;
 }
 
 .range {
   margin-top: 40px;
-  font-family: Work Sans;
   color: #151c22;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0 4px 3px;
+  border-bottom: 2px solid #151c22;
 }
-
-/* hr {
-  width: 70px;
-  margin-top: 10px;
-  border: 2px solid #151c22;
-} */
 
 .background-picture {
   background-image: url(img/diagonal.png);
-  margin-top: 60px;
   width: 320px;
-  height: 254px;
+  padding: 15px 15px 0;
 }
 
-.background-red {
-  background-color: red;
+.background-gray {
+  background-color: #F1F2F4;;
   padding-top: 40px;
-  margin: 15px 15px 15px 15px;
   display: flex;
-  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px 40px;
 }
-
-/* .child {
-  position: absolute;
-  height: 211px;
-  width: 290px;
-  margin: 3px 3px 3px 3px;
-  left: 15px;
-  top: 15px;
-  background-color: #f1f2f4;
-  background-color: red;
-  z-index: 2;
-} */
 
 .street {
-  font-family: Work Sans;
   font-size: 18px;
   color: #727a82;
 }
 
 .fall {
   margin-top: 10px;
-  font-family: Work Sans;
   font-weight: bold;
   font-size: 26px;
   color: #151c22;
 }
 
 .btn2 {
-  background: #151c22;
   padding: 24px 34px 24px 34px;
   margin-top: 30px;
-  margin-bottom: 40px;
-
-  font-family: Work Sans;
-  font-weight: bold;
-  font-size: 16px;
-  color: #ffffff;
+  /* margin-bottom: 40px; */
 }
 
-.rectangle5 {
+.promo-picture {
   width: 312px;
   height: 226px;
 }
 
 .category1 {
-  font-family: Work Sans;
   font-weight: bold;
   font-size: 26px;
   color: #151c22;
 }
 
 .cards1 {
-  font-family: Work Sans;
   position: absolute;
   left: 15px;
   top: 300px;
@@ -297,7 +278,6 @@ body {
   position: absolute;
   left: 129px;
   top: 400px;
-  font-family: Work Sans;
   color: #151c22;
 }
 
@@ -317,7 +297,6 @@ body {
   margin-bottom: 30px;
   margin-left: 30px;
   width: 80px;
-  font-family: Work Sans;
 }
 
 .social-network {

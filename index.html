@@ -4,55 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Резюме Якупов</title>
+    <link rel="stylesheet" href="css-reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 class="heading">Nimes</h1>
-    <div class="first-block">
-      <div class="category-link">
+    <header class="header">
+      <h1 class="heading">Nimes</h1>
+    </header>
+    <section class="first-block">
+      <div class="links">
         <nav>
-          <a class="a" href="#">Woman</a>
-          <a class="a" href="#">Man</a>
-          <a class="a" href="#">New</a>
+          <a class="category-link" href="#">Woman</a>
+          <a class="category-link" href="#">Man</a>
+          <a class="category-link" href="#">New</a>
         </nav>
         <div>
-          <a class="b" href="#">
+          <a class="icon-link search-link" href="#">
             <img
-              class="search-link"
+              class="search"
               src="img/search.png"
               alt="magnifier"
             />
           </a>
-          <a class="b" href="#">
-            <img src="img/cart.png" width="18" height="16" alt="photo" />
+          <a class="icon-link cart-link" href="#">
+            <img
+             class="cart"
+             src="img/cart.png" 
+             alt="cart" 
+             />
           </a>
         </div>
       </div>
+
       <div class="girl">
-        <img src="img/img-girl.png" width="202" height="249" alt="photo" />
+        <img 
+        src="img/img-girl.png"   
+        alt="girl" 
+        />
       </div>
-      <div class="respect">The quality you deserve</div>
-      <div class="material">DENIM</div>
-      <button class="btn">Check new collection</button>
-    </div>
+      <p class="respect">The quality you deserve</p>
+      <p class="material">DENIM</p>
+      <button class="btn-main btn">Check new collection</button>
+    </section>
 
 
 
 
  
-  <div class="second-block">
+  <section class="second-block">
     <div class="category">Bestsellers</div>
-    <div class="cards">
 
+    <div class="cards">
       <div class="card">
         <a class="card-link" href="#">
           <img
            class="jacket1"
            src="img/card-photo1.png"
-           width="130"
-           height="160"
-           alt="photo"
-           />
+           alt="shirt guy"
+          />
           <div class="card-name">Jacket</div>
           <div class="card-price">$ 120</div>
        </a>
@@ -63,9 +72,7 @@
           <img
            class="jacket2"
            src="img/card-photo2.png"
-           width="130"
-           height="160"
-           alt="photo"
+           alt="girl in a jacket"
           />
           <div class="card-name">Overalls</div>
           <div class="card-price">$ 140</div>
@@ -77,9 +84,7 @@
           <img
            class="jacket3"
            src="img/card-photo3.png"
-           width="130"
-           height="160"
-           alt="photo"
+           alt="guy in the jacket"
           />
          <div class="card-name">Jacket</div>
          <div class="card-price">$ 90</div>
@@ -91,9 +96,7 @@
           <img
            class="jacket4"
            src="img/card-photo4.png"
-           width="130"
-           height="160"
-           alt="photo"
+           alt="girl in overalls"
           />
           <div class="card-name">Overalls</div>
           <div class="card-price">$ 160</div>
@@ -101,23 +104,23 @@
       </div>  
     </div>
 
-    <div class="range">View all</div>
+    <a class="range" href="#">View all</a>
 
    <div class="background-picture">
-     <div class="background-red">
-       <div class="street">Street fashion collection</div>
-       <div class="fall">Fall 2019</div>
-       <button class="btn2">Shop now</button>
+     <div class="background-gray">
+       <p class="street">Street fashion collection</p>
+       <p class="fall">Fall 2019</p>
+       <button class="btn-main btn2">Shop now</button>
      </div>
    </div>
   
-   <div class="rectangle5">
+   <div class="promo-picture">
      <img
-       src="img/Rectangle5.png"
-       alt="photo"
+       src="img/promo-picture.png"
+       alt="promo-picture"
      />
    </div>
-  </div>
+  </section>
 
 
 <!-- <div class="category1">Shop by category</div>
@@ -186,7 +189,7 @@
 
 
     
-     <div class="footer">
+     <footer class="footer">
         <div class="menu">
           <div class="sections">Nimes</div>
           <div class="sections">Sitemap</div>
@@ -202,6 +205,6 @@
           <img src="img/printerest.png" width="20" height="20" alt="photo" />
           <img src="img/twitter.png" width="20" height="20" alt="photo" />
         </div>
-      </div> -->
+      </footer> -->
   </body>
 </html>
