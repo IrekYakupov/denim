@@ -26,9 +26,9 @@
 
 body {
   font-family: "Work Sans";
-    /* background: #e5e5e5; */
-    margin: 0px;
-    color: #151c22;
+  /* background: #e5e5e5; */
+  margin: 0px;
+  color: #151c22;
 }
 
 .links {
@@ -155,7 +155,7 @@ body {
   text-decoration: none;
 }
 
-.category {
+.chapter {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -208,6 +208,7 @@ body {
   line-height: 16px;
   padding: 0 4px 3px;
   border-bottom: 2px solid #151c22;
+  margin-bottom: 60px;
 }
 
 .background-picture {
@@ -217,7 +218,7 @@ body {
 }
 
 .background-gray {
-  background-color: #F1F2F4;;
+  background-color: #f1f2f4;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
@@ -247,44 +248,48 @@ body {
 .promo-picture {
   width: 312px;
   height: 226px;
+  margin-bottom: 60px;
 }
 
-.category1 {
+.category {
   font-weight: bold;
   font-size: 26px;
   color: #151c22;
+  margin-bottom: 40px;
 }
 
-.cards1 {
-  position: absolute;
-  left: 15px;
-  top: 300px;
+.category-cards {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
+
 
 .secondname1 {
   margin-right: 30px;
-  color: #151c22;
   margin-top: 15px;
+  /* margin-bottom: 30px; */
+  color: #151c22;
 }
 
-.card1 {
+.category-card-link {
   width: 50%;
   text-decoration: none;
 }
 
 .range1 {
-  position: absolute;
-  left: 129px;
-  top: 400px;
   color: #151c22;
+  text-decoration: none;
+  padding: 0 4px 3px;
+  border-bottom: 2px solid #074983;
+  /* margin-bottom: 67px; */
 }
 
 .footer {
   width: 320px;
   background: #151c22;
   padding-top: 20px;
+  margin-top: 67px;
 }
 
 .menu {
@@ -306,5 +311,3 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
-
